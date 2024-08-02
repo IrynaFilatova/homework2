@@ -85,13 +85,14 @@ font-size: 16px;
 
     .team-section {background-color: #f4f4fd;
 }
-.team-section-title {font-weight: 700;
+.team-section-title { text-transform: capitalize;font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
 }
+.team-member-list {background-color: #ffffff;}
 .team-member-name {font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -110,9 +111,10 @@ color: #2e2f42;
 }
 .portfolio-title {font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
   color: #2E2F42;
 }
 .portfolio-menu {
@@ -136,3 +138,9 @@ color: #2e2f42;
 .footer-logo-span {font-family: "Raleway", sans-serif;  font-weight: 700; font-size: 18px; line-height: 1.17;
   letter-spacing: 0.03em; text-transform: uppercase;
   color: #f4f4fd; }
+  .copyright-text {font-family: "Raleway";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;}
